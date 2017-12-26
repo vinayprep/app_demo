@@ -79,6 +79,7 @@ public class TextActivity extends Activity {
                 appContext.getResources().getString(R.string.identity_id_test),
                 Regions.fromName("us-east-1"));
 
+        Log.d(TAG, "Lex Client1");
         // Create Lex interaction client.
         lexInteractionClient = new InteractionClient(getApplicationContext(),
                 credentialsProvider,
@@ -87,6 +88,7 @@ public class TextActivity extends Activity {
                 appContext.getResources().getString(R.string.bot_alias));
         lexInteractionClient.setAudioPlaybackListener(audioPlaybackListener);
         lexInteractionClient.setInteractionListener(interactionListener);
+        Log.d(TAG, "Lex Client2");
     }
 
     /**

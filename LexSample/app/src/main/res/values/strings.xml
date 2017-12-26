@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Lex Sample</string>
-    <string name="bot_name">BotNAme</string>
-    <string name="bot_alias">$LATEST</string>
-    <string name="identity_id_test">poolID</string>
-    <string name="aws_region">AWS-region</string>
+    <string name="bot_name">ReportAProblemTest</string>
+    <string name="bot_alias">ReportProblem</string>
+    <string name="identity_id_test">us-east-1:992b31d0-3bb6-4af4-9944-75bd7fbc814f</string>
+    <string name="aws_region">us-east-1</string>
     <string name="screen_options_main_message">Amazon Lex</string>
 </resources>
